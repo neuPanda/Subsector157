@@ -1,0 +1,43 @@
+# Author Info
+# GitHub: AscendantDestiny
+# Discord: AscendantDestiny
+
+# Maintainer Info
+# GitHub: 
+# Discord: 
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Flea 
+  parent: BaseVessel
+  name: NC Flea
+  description: A small transport shuttle with ample space for passengers. The minivan of spacecraft. We have McCargo at home.
+  price: 15000 # $14250 after appraisal + ~5% markup
+  category: Small
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/flea.yml
+  guidebookPage: Null
+  class:
+  - Civilian
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: Flea
+  mapName: 'NC Flea'
+  mapPath: /Maps/_NF/Shuttles/flea.yml
+  minPlayers: 0
+  stations:
+    Flea:
+      stationProto: StandardFrontierVessel
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: 'Flea {1}'
+        nameGenerator: !type:NanotrasenNameGenerator
+          prefixCreator: '14'
+      - type: StationJobs
+        availableJobs:
+          Contractor: [ 0, 0 ]
+          Pilot: [ 0, 0 ]
+          Mercenary: [ 0, 0 ]
