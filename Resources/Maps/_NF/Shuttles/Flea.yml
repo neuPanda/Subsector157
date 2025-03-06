@@ -14,7 +14,7 @@ entities:
     - type: MetaData
       name: Flea
     - type: Transform
-      pos: −0.1, -0.93364713
+      pos: -0.91635287,-1.75
       parent: invalid
     - type: MapGrid
       chunks:
@@ -60,6 +60,8 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - type: BecomesStation
+      id: Flea
 - proto: AirAlarm
   entities:
   - uid: 3
