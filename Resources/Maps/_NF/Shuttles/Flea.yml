@@ -14,7 +14,7 @@ entities:
     - type: MetaData
       name: Flea
     - type: Transform
-      pos: -0.47499943,-0.47500038
+      pos: −0.1, -0.93364713
       parent: invalid
     - type: MapGrid
       chunks:
