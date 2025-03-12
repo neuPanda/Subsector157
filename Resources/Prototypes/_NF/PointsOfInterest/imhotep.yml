@@ -13,7 +13,7 @@
   name: "Imhotep's Bar & Grill"
   minimumDistance: 1200
   maximumDistance: 2900
-  spawnGroup: RestStop
+  spawnGroup: Required
   gridPath: /Maps/_NF/POI/imhotep.yml
   addComponents:
   - type: StationTransit
