@@ -6,11 +6,11 @@ If you want to host or create content for SS157, this is the repo you need. It c
 
 ## Links
 
-[Discord](https://discord.gg/tpuAT7d3zm/) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/)
+[Discord](https://discord.gg/BD7bGrZBsA) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/)
 
 ## Documentation/Wiki
 
-Our [wiki](https://frontierstation.wiki.gg/) has documentation on FS14s content.
+We don't yet have a wiki.
 
 ## Contributing
 
