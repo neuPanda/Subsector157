@@ -1,5 +1,5 @@
 # Author Info
-# GitHub: UbaserB (https://github.com/UbaserB)
+# GitHub: AscendantDestiny
 # Discord: ???
 
 # Maintainer Info
@@ -9,28 +9,31 @@
 # Shuttle Notes:
 #
 - type: vessel
-  id: Investigator
-  name: NR Investigator
-  description: A medium research shuttle designed for xenoarcheological studies.
-  price: 42100 # ~36540$ on mapinit + ~5480$ from 15% markup
-  category: Medium
+  id: Curie
+  parent: BaseVessel
+  name: NR Curie
+  description: A small research shuttle designed for xenoarcheological studies.
+  price: 20000 # 17000$ on mapinit + ~5480$ from 15% markup
+  category: small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/investigator.yml
-  guidebookPage: ShipyardInvestigator
+  shuttlePath: /Maps/_NF/Shuttles/curie.yml
+  guidebookPage: Null
   class:
   - Science
+  engine:
+  - AME
 
 - type: gameMap
-  id: Investigator
-  mapName: 'NR Investigator'
-  mapPath: /Maps/_NF/Shuttles/investigator.yml
+  id: Curie
+  mapName: 'NR Curie'
+  mapPath: /Maps/_NF/Shuttles/curie.yml
   minPlayers: 0
   stations:
-    Investigator:
+    Curie:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Investigator {1}'
+          mapNameTemplate: 'Curie {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
