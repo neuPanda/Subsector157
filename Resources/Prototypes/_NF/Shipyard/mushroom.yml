@@ -15,7 +15,7 @@
   price: 24500
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/Mushroom.yml
+  shuttlePath: /Maps/_NF/Shuttles/mushroom.yml
   guidebookPage: Null
   class:
   - Salvage
