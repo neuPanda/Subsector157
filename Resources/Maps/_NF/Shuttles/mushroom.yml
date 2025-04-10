@@ -249,7 +249,7 @@ entities:
       pos: -0.5,4.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -9810.889
+      secondsUntilStateChange: -9932.053
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -267,7 +267,7 @@ entities:
       pos: -0.5,-4.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -9801.756
+      secondsUntilStateChange: -9922.92
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -2020,6 +2020,8 @@ entities:
     - type: Transform
       pos: -6.5,1.5
       parent: 1
+    - type: DeviceLinkSink
+      invokeCounter: 1
 - proto: ShuttersWindow
   entities:
   - uid: 277
@@ -2028,7 +2030,7 @@ entities:
       pos: -4.5,1.5
       parent: 1
     - type: DeviceLinkSink
-      invokeCounter: 3
+      invokeCounter: 4
   - uid: 278
     components:
     - type: Transform
@@ -2289,9 +2291,13 @@ entities:
     - type: Transform
       pos: -0.5,3.5
       parent: 1
+    - type: SignalSwitch
+      state: True
     - type: DeviceLinkSource
       linkedPorts:
         277:
+        - Pressed: Toggle
+        276:
         - Pressed: Toggle
   - uid: 322
     components:
