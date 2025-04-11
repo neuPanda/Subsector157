@@ -1,6 +1,6 @@
 # Author Info
 # GitHub: AscendantDestiny
-# Discord: AscendantDestiny
+# Discord: ???
 
 # Maintainer Info
 # GitHub: ???
@@ -9,28 +9,31 @@
 # Shuttle Notes:
 #
 - type: vessel
-  id: Mushroom
-  name: NC Mushroom
-  description: A small mining vessel designed to assist salvage operations.
-  price: 24500
-  category: Small
+  id: Curie
+  parent: BaseVessel
+  name: NR Curie
+  description: A small research shuttle designed for xenoarcheological studies.
+  price: 20000 # 17000$ on mapinit + ~5480$ from 15% markup
+  category: small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/mushroom.yml
+  shuttlePath: /Maps/_157/Shuttles/curie.yml
   guidebookPage: Null
   class:
-  - Salvage
+  - Science
+  engine:
+  - AME
 
 - type: gameMap
-  id: Mushroom
-  mapName: 'NC Mushroom'
-  mapPath: /Maps/_NF/Shuttles/mushroom.yml
+  id: Curie
+  mapName: 'NR Curie'
+  mapPath: /Maps/_157/Shuttles/curie.yml
   minPlayers: 0
   stations:
-    Mushroom:
+    Curie:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Mushroom {1}'
+          mapNameTemplate: 'Curie {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

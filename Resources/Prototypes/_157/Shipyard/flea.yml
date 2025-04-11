@@ -16,7 +16,7 @@
   price: 15000 # $14250 after appraisal + ~5% markup
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/flea.yml
+  shuttlePath: /Maps/_157/Shuttles/flea.yml
   guidebookPage: Null
   class:
   - Civilian
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Flea
   mapName: 'NC Flea'
-  mapPath: /Maps/_NF/Shuttles/flea.yml
+  mapPath: /Maps/_157/Shuttles/flea.yml
   minPlayers: 0
   stations:
     Flea:
