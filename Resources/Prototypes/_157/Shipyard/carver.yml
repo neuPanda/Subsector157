@@ -1,0 +1,41 @@
+# Author Info
+# GitHub: AscendantDestiny
+# Discord: AscendantDestiny
+
+# Maintainer Info
+# GitHub: 
+# Discord: 
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Carver
+  name: NC Carver
+  description: A luxurious Booze Cruise. 
+  price: 27500
+  category: Small
+  group: Shipyard
+  shuttlePath: /Maps/_157/Shuttles/carver.yml
+  guidebookPage: Null
+  class:
+  - Kitchen
+
+- type: gameMap
+  id: Carver
+  mapName: 'NT Carver'
+  mapPath: /Maps/_157/Shuttles/carver.yml
+  minPlayers: 0
+  stations:
+    Carver:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Carver {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
