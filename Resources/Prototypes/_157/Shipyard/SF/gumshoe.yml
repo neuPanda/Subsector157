@@ -1,0 +1,29 @@
+- type: vessel
+  id: Gumshoe
+  name: SF Gumshoe
+  description: A small detective-oriented ship with a cell for holding prisoners, and a room for interrogation.
+  price: 29000
+  category: Small
+  group: Security
+  access: Security
+  shuttlePath: /Maps/_157/Shuttles/SF/gumshoe.yml
+  guidebookPage: Null
+  class:
+  - Detective
+
+- type: gameMap
+  id: Gumshoe
+  mapName: 'SF Gumshoe'
+  mapPath: /Maps/_157/Shuttles/SF/gumshoe.yml
+  minPlayers: 0
+  stations:
+    Gumshoe:
+      stationProto: StandardFrontierSecurityVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'gumshoe {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: {}
