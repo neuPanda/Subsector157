@@ -18,7 +18,7 @@
   shuttlePath: /Maps/_157/Shuttles/praetorian.yml
   guidebookPage: Null
   class:
-  - Mercenary
+  - Fighter
 
 - type: gameMap
   id: Praetorian
