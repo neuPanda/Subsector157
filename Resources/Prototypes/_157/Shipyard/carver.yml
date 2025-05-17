@@ -11,6 +11,7 @@
 - type: vessel
   id: Carver
   name: NC Carver
+  parent: BaseVessel
   description: A luxurious Booze Cruise. 
   price: 27500
   category: Small
