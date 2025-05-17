@@ -11,6 +11,7 @@
 - type: vessel
   id: Mushroom
   name: NC Mushroom
+  parent: BaseVessel
   description: A small mining vessel designed to assist salvage operations.
   price: 24500
   category: Small
