@@ -10,10 +10,12 @@
 # A defunct bar and grill. 
 - type: pointOfInterest
   id: Imhotep
+  parent: BasePOI
   name: "Imhotep's Bar & Grill"
   minimumDistance: 1200
   maximumDistance: 2900
-  spawnGroup: Required
+  spawnGamePreset: [ NFAdventure, NFPirate ]
+  spawnGroup: RestStop
   gridPath: /Maps/_157/POI/imhotep.yml
   addComponents:
   - type: StationTransit
@@ -23,7 +25,7 @@
 
 - type: gameMap
   id: Imhotep
-  mapName: "Imhotep's Bar and Grill"
+  mapName: "Imhotep's Bar & Grill"
   mapPath: /Maps/_157/POI/imhotep.yml
   minPlayers: 0
   stations:
