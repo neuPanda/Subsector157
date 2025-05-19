@@ -1,0 +1,57 @@
+# Author Info
+# GitHub: AscendantDestiny
+# Discord: AscendantDestiny
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+- type: pointOfInterest
+  id: GasNGunClean
+  parent: BasePOI
+  name: "Gigi's Gas & Gun"
+  minimumDistance: 3250
+  maximumDistance: 5600
+  spawnGroup: Required
+  gridPath: /Maps/_157/POI/gasngunclean.yml
+  addComponents:
+  - type: SolarPoweredGrid
+    trackOnInit: true
+    doNotCull: true
+
+- type: pointOfInterest
+  id: GasNGunMessy
+  parent: BasePOI
+  name: "Gigi's Gas & Gun"
+  minimumDistance: 3250
+  maximumDistance: 5600
+  spawnGroup: Required
+  gridPath: /Maps/_157/POI/gasngunmessy.yml
+  addComponents:
+  - type: SolarPoweredGrid
+    trackOnInit: true
+    doNotCull: true
+
+- type: gameMap
+  id: GasNGunClean
+  mapName: "Gigi's Gas & Gun"
+  mapPath: /Maps/_157/POI/gasngunclean.yml
+  minPlayers: 0
+  stations:
+    Grifty:
+      stationProto: DeadDropRecordsFrontierOutpost
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Gigi's Gas & Gun"
+
+- type: gameMap
+  id: GasNGunMessy
+  mapName: "Gigi's Gas & Gun"
+  mapPath: /Maps/_157/POI/gasngunmessy.yml
+  minPlayers: 0
+  stations:
+    Grifty:
+      stationProto: DeadDropRecordsFrontierOutpost
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Gigi's Gas & Gun"
