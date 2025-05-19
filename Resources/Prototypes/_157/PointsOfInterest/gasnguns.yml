@@ -38,7 +38,7 @@
   mapPath: /Maps/_157/POI/gasngunclean.yml
   minPlayers: 0
   stations:
-    Grifty:
+    GasNGunClean:
       stationProto: DeadDropRecordsFrontierOutpost
       components:
         - type: StationNameSetup
@@ -50,7 +50,7 @@
   mapPath: /Maps/_157/POI/gasngunmessy.yml
   minPlayers: 0
   stations:
-    Grifty:
+    GasNGunMessy:
       stationProto: DeadDropRecordsFrontierOutpost
       components:
         - type: StationNameSetup
